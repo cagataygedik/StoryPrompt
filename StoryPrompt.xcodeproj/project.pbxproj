@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C2DAEC29071F540056AF51 /* StoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C2DAEB29071F540056AF51 /* StoryPromptViewController.swift */; };
+		A2C2DAEF29072DE90056AF51 /* StoryPromptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C2DAEE29072DE90056AF51 /* StoryPromptTableViewController.swift */; };
 		A2CF783A2906D22800476A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF78392906D22800476A17 /* AppDelegate.swift */; };
 		A2CF783C2906D22800476A17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF783B2906D22800476A17 /* SceneDelegate.swift */; };
-		A2CF783E2906D22800476A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF783D2906D22800476A17 /* ViewController.swift */; };
+		A2CF783E2906D22800476A17 /* AddStoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF783D2906D22800476A17 /* AddStoryPromptViewController.swift */; };
 		A2CF78412906D22800476A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CF783F2906D22800476A17 /* Main.storyboard */; };
 		A2CF78432906D22800476A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CF78422906D22800476A17 /* Assets.xcassets */; };
 		A2CF78462906D22800476A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CF78442906D22800476A17 /* LaunchScreen.storyboard */; };
@@ -18,10 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2C2DAEB29071F540056AF51 /* StoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptViewController.swift; sourceTree = "<group>"; };
+		A2C2DAEE29072DE90056AF51 /* StoryPromptTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptTableViewController.swift; sourceTree = "<group>"; };
 		A2CF78362906D22800476A17 /* StoryPrompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryPrompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CF78392906D22800476A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2CF783B2906D22800476A17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2CF783D2906D22800476A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2CF783D2906D22800476A17 /* AddStoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoryPromptViewController.swift; sourceTree = "<group>"; };
 		A2CF78402906D22800476A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2CF78422906D22800476A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2CF78452906D22800476A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2C2DAED29071F5C0056AF51 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2C2DAEE29072DE90056AF51 /* StoryPromptTableViewController.swift */,
+				A2CF783D2906D22800476A17 /* AddStoryPromptViewController.swift */,
+				A2C2DAEB29071F540056AF51 /* StoryPromptViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A2CF782D2906D22800476A17 = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +74,10 @@
 		A2CF78382906D22800476A17 /* StoryPrompt */ = {
 			isa = PBXGroup;
 			children = (
+				A2C2DAED29071F5C0056AF51 /* ViewControllers */,
 				A2CF784D2906D23500476A17 /* Model */,
 				A2CF78392906D22800476A17 /* AppDelegate.swift */,
 				A2CF783B2906D22800476A17 /* SceneDelegate.swift */,
-				A2CF783D2906D22800476A17 /* ViewController.swift */,
 				A2CF783F2906D22800476A17 /* Main.storyboard */,
 				A2CF78422906D22800476A17 /* Assets.xcassets */,
 				A2CF78442906D22800476A17 /* LaunchScreen.storyboard */,
@@ -152,8 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C2DAEF29072DE90056AF51 /* StoryPromptTableViewController.swift in Sources */,
+				A2C2DAEC29071F540056AF51 /* StoryPromptViewController.swift in Sources */,
 				A2CF78512906D26D00476A17 /* StoryPrompts.swift in Sources */,
-				A2CF783E2906D22800476A17 /* ViewController.swift in Sources */,
+				A2CF783E2906D22800476A17 /* AddStoryPromptViewController.swift in Sources */,
 				A2CF783A2906D22800476A17 /* AppDelegate.swift in Sources */,
 				A2CF784F2906D25100476A17 /* StoryPromptEntry.swift in Sources */,
 				A2CF783C2906D22800476A17 /* SceneDelegate.swift in Sources */,
